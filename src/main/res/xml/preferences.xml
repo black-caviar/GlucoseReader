@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="flash_enable"
+        android:summary="Enable the flash"
+        android:title="Flash" />
+
+    <SwitchPreference
+        android:defaultValue="false"
+        android:key="raw_hsl"
+        android:summary="Enable raw HSL reporting"
+        android:title="HSL Debug" />
+
+    <PreferenceCategory
+        android:title="Email Preferences">
+
+        <EditTextPreference
+            android:key="email"
+            android:title="Recipient Email"
+            android:summary="The email of the person to whom you want to send your glucose data"/>
+
+        <EditTextPreference
+            android:key="name_patient"
+            android:title="Patient Name"
+            android:summary="Your name"/>
+
+        <Preference
+            android:title="Share Data"
+            android:key="send_mail"
+            android:summary="Send your blood glucose history to your healthcare provider" />
+
+
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
