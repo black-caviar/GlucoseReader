@@ -9,8 +9,6 @@
           <set>
             <option value="$PROJECT_DIR$/.." />
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/../scissors-master/scissors-sample" />
-            <option value="$PROJECT_DIR$/../scissors-master/scissors2" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
